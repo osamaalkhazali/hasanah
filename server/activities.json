@@ -1,0 +1,204 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "حملة توزيع إفطار رمضان",
+      "description": "توزيع وجبات الإفطار على الأسر المحتاجة خلال شهر رمضان في مناطق مختارة.",
+      "date": "2025-04-05",
+      "location": "عمّان",
+      "typeOfActivity": "توزيع إفطار رمضان",
+      "slotsAvailable": 50,
+      "img_url":"https://media.elwatannews.com/media/img/mediaarc/large/6336327841710802486.jpg"
+    },
+    {
+      "id": 2,
+      "title": "حملة تقليل هدر الطعام",
+      "description": "جمع فائض الطعام من المطاعم والمنازل وتوزيعه على الأسر المحتاجة خلال شهر رمضان.",
+      "date": "2025-04-08",
+      "location": "الكرك",
+      "typeOfActivity": "تخفيف هدر الطعام",
+      "slotsAvailable": 30,
+      "img_url":"https://www.almamlakatv.com//images/articles/big/2025/3/67ced95b07736.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "تنظيف وتزيين المساجد",
+      "description": "مساعدة المتطوعين في تنظيف وتزيين المساجد استعداداً وبعد صلاة التراويح خلال رمضان.",
+      "date": "2025-04-09",
+      "location": "عمان",
+      "typeOfActivity": "تطوعي",
+      "slotsAvailable": 15,
+      "img_url":"https://cleaner4me.com/wp-content/uploads/2023/01/%D8%A7%D9%81%D8%B6%D9%84-%D8%B9%D8%B1%D8%B6-%D8%B4%D8%B1%D9%83%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D9%85%D8%B3%D8%A7%D8%AC%D8%AF-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B61-e1673187151334.jpg"
+    },
+    {
+      "id": 4,
+      "title": "مبادرة إفطار جماعي",
+      "description": "تنظيم إفطار جماعي في حي شعبي لتوحيد المجتمع ودعم الأسر المحتاجة خلال شهر رمضان.",
+      "date": "2025-04-12",
+      "location": "إربد",
+      "typeOfActivity": "توزيع إفطار رمضان",
+      "slotsAvailable": 40,
+      "img_url":"https://www.alaraby.co.uk/sites/default/files/styles/large_1_1/public/2023-04/%D8%AC%D8%B2%D8%A7%D9%8A%D8%B1%202.jpg?itok=15h9EAz2"
+    },
+    {
+      "id": 5,
+      "title": "تطوع في توزيع طرود غذائية",
+      "description": "المشاركة في جمع وتوزيع طرود غذائية على الأسر ذات الدخل المحدود خلال شهر رمضان.",
+      "date": "2025-04-15",
+      "location": "عمان",
+      "typeOfActivity": "توزيع إفطار رمضان",
+      "slotsAvailable": 50,
+      "img_url":"https://nbnjo.com/assets/2021-04-17/images/131250_10_1618612772.jpg"
+    },
+    {
+      "id": 6,
+      "title": "حملة إفطار للفقراء",
+      "description": "تنظيم حملة توزيع إفطار للفقراء والمحتاجين في الأحياء الفقيرة خلال شهر رمضان.",
+      "date": "2025-04-17",
+      "location": "السلط",
+      "typeOfActivity": "توزيع إفطار رمضان",
+      "slotsAvailable": 35,
+      "img_url":"https://ensany.com/storage/Campaign/2025/1/QR3wFFDdLrT2H9HYP8ehYcQzp2QqATq980PRzS3H.webp"
+    },
+    {
+      "id": 7,
+      "title": "جلسة تحفيظ القرآن للأطفال",
+      "description": "تنظيم جلسات لتحفيظ وتلاوة القرآن الكريم للأطفال في أحياء عمّان.",
+      "date": "2025-04-19",
+      "location": "عمّان",
+      "typeOfActivity": "تعليمي رمضاني",
+      "slotsAvailable": 25,
+      "img_url":"https://almawsoa.com/wp-content/uploads/2024/05/%D9%82%D8%B1%D8%A7-1-jpg-e1700295764161-780x470-1.webp"
+    },
+    {
+      "id": 8,
+      "title": "تطوع في حملة تنظيف الشوارع",
+      "description": "تنظيم حملة تطوعية لتنظيف الشوارع والمناطق العامة في المدن الأردنية خلال شهر رمضان.",
+      "date": "2025-04-20",
+      "location": "الكرك",
+      "typeOfActivity": "تطوعي",
+      "slotsAvailable": 30,
+      "img_url":"https://qudsn.co/thumb/w1110/uploads/images/2021/05/aFPeL.jpg"
+    },
+    {
+      "id": 9,
+      "title": "فعالية ترفيهية لذوي الاحتياجات الخاصة",
+      "description": "تنظيم فعاليات ترفيهية وتثقيفية خصيصاً لذوي الاحتياجات الخاصة خلال شهر رمضان.",
+      "date": "2025-04-23",
+      "location": "مادبا",
+      "typeOfActivity": "ترفيهي",
+      "slotsAvailable": 15,
+      "img_url":"https://assets.raya.com/wp-content/uploads/2021/06/02111111/01231E51-BC88-4919-9449-FC4EDBA9A7F9.gif"
+    },
+    {
+      "id": 10,
+      "title": "مبادرة توزيع هدايا رمضان",
+      "description": "تنظيم توزيع هدايا رمضانية للأطفال والأسر المحتاجة في مختلف مناطق الأردن.",
+      "date": "2025-04-24",
+      "location": "العقبة",
+      "typeOfActivity": "رمضاني اجتماعي",
+      "slotsAvailable": 28,
+      "img_url":"https://i.ytimg.com/vi/_URxQGud3Yc/maxresdefault.jpg"
+    },
+    {
+      "id": 11,
+      "title": "حملة توزيع تمر وماء في الأماكن العامة قبيل الإفطار",
+      "description": "توزيع التمر والماء على المارة في الأماكن العامة لتحضيرهم للإفطار خلال شهر رمضان.",
+      "date": "2025-04-16",
+      "location": "عمّان",
+      "typeOfActivity": "رمضاني اجتماعي",
+      "slotsAvailable": 40,
+      "img_url":"https://alrai.com/uploads/images/2017/06/11/60835.jpg"
+    },
+    {
+      "id": 12,
+      "title": "حملة تجهيز إفطار في المساجد عند صلاة المغرب",
+      "description": "تنظيم حملة تجهيز وجبات الإفطار في المساجد فور انتهاء صلاة المغرب لتلبية احتياجات الصائمين خلال شهر رمضان.",
+      "date": "2025-04-18",
+      "location": "إربد",
+      "typeOfActivity": "رمضاني",
+      "slotsAvailable": 30,
+      "img_url":"https://www.addustour.com/file.php?fileid=554465&width=800&height=450"
+    },
+    {
+      "id": 13,
+      "title": "حملة توزيع زكاة الفطر",
+      "description": "تنظيم حملة لتوزيع زكاة الفطر على المحتاجين قبل حلول عيد الفطر لتخفيف معاناة الأسر.",
+      "date": "2025-04-28",
+      "location": "الزرقاء",
+      "typeOfActivity": "رمضاني",
+      "slotsAvailable": 25,
+      "img_url":"https://cdn.molhamteam.com/i/X2zZfzhQ3WhbMvsBtIUQ.jpg"
+    },
+    {
+      "id": 14,
+      "title": "حملة توزيع ملابس شتوية",
+      "description": "توزيع ملابس شتوية على الأسر المحتاجة خلال فصل البرد.",
+      "date": "2025-11-15",
+      "location": "عمّان",
+      "typeOfActivity": "تبرعي",
+      "slotsAvailable": 40,
+      "img_url":"https://www.adaleh-syr.org/wp-content/uploads/2021/02/photo_2021-01-20_18-23-20.jpg"
+    },
+    {
+      "id": 15,
+      "title": "حملة تبرعات للمستشفيات",
+      "description": "جمع تبرعات لشراء معدات طبية وتحديث المستشفيات الحكومية.",
+      "date": "2025-10-10",
+      "location": "إربد",
+      "typeOfActivity": "تبرعي",
+      "slotsAvailable": 30,
+      "img_url":"https://alsaa.net/webp/new_584749_9369_800.webp"
+    },
+    {
+      "id": 16,
+      "title": "حملة دعم التعليم",
+      "description": "جمع تبرعات لشراء كتب وأدوات مدرسية لطلاب الأحياء الفقيرة.",
+      "date": "2025-09-05",
+      "location": "الزرقاء",
+      "typeOfActivity": "تبرعي",
+      "slotsAvailable": 50,
+      "img_url":"https://www.qcharity.org/blog/wp-content/uploads/education-poor-countries-600x600.jpg"
+    },
+    {
+      "id": 17,
+      "title": "حملة إعادة تأهيل المساكن",
+      "description": "تجديد وتأهيل المساكن القديمة في الأحياء المحتاجة بدعم التبرعات.",
+      "date": "2025-12-01",
+      "location": "الكرك",
+      "typeOfActivity": "تبرعي",
+      "slotsAvailable": 20,
+      "img_url":"https://ar.smileyounited.org/mt-content/uploads/2023/04/capture_2023-04-25-15-19-48.png"
+    },
+    {
+      "id": 18,
+      "title": "حملة دعم الأرامل والأيتام",
+      "description": "جمع تبرعات لتوفير الدعم المالي والمعنوي للأرامل والأيتام.",
+      "date": "2025-11-20",
+      "location": "العقبة",
+      "typeOfActivity": "تبرعي اجتماعي",
+      "slotsAvailable": 25,
+      "img_url":"https://fatih-vakfi.org/wp-content/uploads/2023/03/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A7%D9%8A%D8%AA%D8%A7%D9%85.jpg"
+    },
+    {
+      "id": 19,
+      "title": "حملة تبرعات لمدارس الأحياء النائية",
+      "description": "جمع تبرعات لشراء المعدات التعليمية وتحسين بيئة المدارس في المناطق النائية.",
+      "date": "2025-10-25",
+      "location": "معان",
+      "typeOfActivity": "تبرعي",
+      "slotsAvailable": 35,
+      "img_url":"https://sswm.info/sites/default/files/toolbox/ARGLES%202010%20Child%20Friendly%20Toilet%20in%20Slum_0.JPG"
+    },
+    {
+      "id": 20,
+      "title": "حملة دعم رياض الأطفال",
+      "description": "توفير المستلزمات التعليمية والأنشطة الترفيهية لرياض الأطفال بدعم تبرعات المجتمع.",
+      "date": "2025-09-15",
+      "location": "جرش",
+      "typeOfActivity": "تبرعي تعليمي",
+      "slotsAvailable": 30,
+      "img_url":"https://alrai.com/uploads/images/2021/01/21/264114.jpg"
+    }
+  ]
+}

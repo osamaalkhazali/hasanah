@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+  --brand: #0d715e !important;
+  --dark: #04342b !important;
+  --body: #516171 !important;
+  --text: #fff !important;
+  --border: rgba(0, 0, 0, 0.08) !important;
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+body {
+  color: var(--body) !important;
+  font-family: "El Messiri", sans-serif !important; 
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.7 !important;
+}
+
+* {
+  transition: all 0.3s ease !important;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: var(--shadow);
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.nav-link {
+  color: var(--body) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--brand) !important;
+}
+
+.nav-button {
+  background-color: var(--brand);
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: var(--dark);
+}
+
+/* User Profile Section */
+#user-profile {
+  padding: 4rem 0;
+}
+
+.user-card {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background-color: #fff;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h2 {
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.user-card .social-links a {
+  color: var(--dark);
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.user-card .social-links a:hover {
+  color: var(--brand);
+}
+
+.userImg {
+  width: 150px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.history h3 {
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card {
+
+  margin-bottom: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background-color: #fff ;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: start;
+}
+
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: var(--dark);
+}
+
+.card-text {
+  color: var(--body);
+}
+
+
+@media (max-width: 992px) {
+  .user-card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-card {
+    padding: 1rem;
+  }
+}

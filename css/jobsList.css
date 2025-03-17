@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+  --brand: #0d715e !important;
+  --dark: #04342b !important;
+  --body: #516171 !important;
+  --text: #fff !important;
+  --border: rgba(0, 0, 0, 0.08) !important;
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+body {
+  color: var(--body) !important;
+  font-family: "El Messiri", sans-serif ;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+  line-height: 1.7 !important;
+  * {
+    transition: all 0.3s ease !important;
+    box-sizing: border-box;
+  }
+}
+
+
+.job-item {
+  padding: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid #e0e0e0 !important; /* Light border for subtle separation */
+  background-color: #fff !important; /* White background for a clean look */
+  color: #092032 !important; /* Dark text for readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s !important;
+}
+
+.job-item:hover {
+  transform: translateY(-5px) !important; /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important; /* Stronger shadow on hover */
+}
+
+.job-item i {
+  color: #589dcc !important; /* Use blue for icons */
+}
+
+.job-item h2 {
+  color: #092032 !important; /* Dark heading */
+  margin-bottom: 1rem !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #092032 !important; /* Dark button */
+  border-color: #092032 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #589dcc !important; /* Blue on hover */
+  border-color: #589dcc !important;
+  color: #fff !important;
+  i {
+    color: #092032 !important;
+  }
+}
+
+.btn-light {
+  color: #092032 !important; /* Dark text for light button */
+  border: 1px solid #092032 !important; /* Dark border */
+}
+
+.btn-light:hover {
+i {
+  color: red !important;
+}}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .job-item {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .job-item {
+    padding: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+}
+
+.btn {
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+  border-radius: 0.25rem !important;
+  transition: background-color 0.3s, color 0.3s !important;
+}
+
+.img-fluid {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit :contain !important;
+}
+
+
+.job-listing-container {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  button {
+    height: 45px;
+  }
+}
+
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

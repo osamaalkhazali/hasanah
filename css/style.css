@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+  --brand: #0d715e !important;
+  --dark: #04342b !important;
+  --body: #516171 !important;
+  --text: #fff !important;
+  --border: rgba(0, 0, 0, 0.08) !important;
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+body {
+  color: var(--body) !important;
+  font-family: "El Messiri", sans-serif ;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+  line-height: 1.7 !important;
+  * {
+    transition: all 0.3s ease !important;
+    box-sizing: border-box;
+  }
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  color: var(--dark) !important;
+}
+
+.navbar {
+  height: 75px !important;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    height: fit-content !important;
+  }
+}
+
+.logo {
+  width: 70px !important;
+  cursor: pointer !important;
+}
+
+.nav-containor-button {
+  display: flex;
+  gap: 5px !important;
+  a {
+    padding-left: 0 !important;
+    padding-right: 5px !important;
+  }
+}
+
+.nav-button {
+  padding: 4px 10px !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  background-color: var(--brand) !important;
+  color: var(--text) !important;
+  align-items: center !important;
+  border: none !important;
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  a {
+    color: var(--text) !important;
+    margin: 0 !important;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--dark) !important;
+  transition: all 0.4s ease !important;
+  font-weight: 500 !important;
+}
+
+a:hover {
+  color: var(--brand) !important;
+}
+
+/* slide */
+.hero-content {
+  min-height: 100vh !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/images/hero.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.hero-content .display-3 {
+  color: var(--text) !important;
+  font-size: 3rem;
+}
+
+@media (max-width: 576px) {
+  .hero-content .display-3 {
+    font-size: 2rem !important;
+  }
+}
+
+/* navbar */
+.navbar {
+  box-shadow: var(--shadow) !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--dark) !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--brand) !important;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: var(--brand) !important;
+}
+
+.navbar-brand {
+  font-size: 28px !important;
+  font-weight: 700 !important;
+}
+
+.navbar-brand .dot {
+  color: var(--brand) !important;
+}
+
+.btn {
+  padding: 8px 26px !important;
+}
+
+.btn-brand {
+  border-color: var(--brand) !important;
+  background-color: var(--brand) !important;
+  color: var(--text) !important;
+}
+.btn-outline-light {
+  color: #fff !important;
+}
+
+.btn-brand:hover {
+  background-color: var(--brand) !important;
+  border-color: var(--brand) !important;
+  color: var(--text) !important;
+}
+
+footer {
+  background-color: #d3d3d3 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.img-footer {
+  width: 250px !important;
+}
+
+footer .footer-top {
+  padding-top: 80px !important;
+  padding-bottom: 40px !important;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding-bottom: 20px !important;
+  padding-top: 0 !important;
+}
+
+footer .navbar-brand {
+  color: var(--text) !important;
+}
+
+footer p {
+  color: var(--dark) !important;
+}
+
+footer .social-icons a {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 20px !important;
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+
+.job-item {
+  border: 1px solid transparent !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08) !important;
+  transition: 0.5s !important;
+  i {
+    color: var(--brand) !important;
+  }
+}
+
+.btn-primary {
+  background-color: var(--brand) !important;
+  color: var(--text) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--dark) !important;
+  color: var(--text) !important;
+}
+
+.nav-button:hover,
+.btn-brand:hover {
+  background-color: var(--dark) !important;
+  color: var(--text) !important;
+}
+
+.job-item:hover {
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  box-shadow: none !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0 !important;
+    transform: translate3d(0, 100%, 0) !important;
+  }
+  to {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp !important;
+}
+
+.jobColor {
+  color: #064439 !important;
+}

@@ -1,0 +1,207 @@
+{
+  "donations": [
+    {
+      "id": 1,
+      "img":"https://t4.ftcdn.net/jpg/04/98/47/53/360_F_498475327_1fHyorA3Pf0PVeOaIBc5XcjKvliiZCrs.jpg",
+      "title": "حملة تبرعات غذائية",
+      "description": "جمع التبرعات لشراء المواد الغذائية للأسر المحتاجة خلال فصل الشتاء.",
+      "date": "2025-11-01",
+      "location": "عمّان",
+      "typeOfDonation": "غذائية",
+      "targetAmount": 10000,
+      "currentAmount": 3500
+    },
+    {
+      "id": 2,
+      "img":"https://www.shutterstock.com/shutterstock/photos/1821215420/display_1500/stock-photo-cropped-shot-of-group-of-volunteers-packing-medicine-donation-in-paper-bags-and-boxes-for-needy-1821215420.jpg  ",  
+      "title": "حملة تبرعات للأدوية",
+      "description": "جمع التبرعات لشراء الأدوية والمستلزمات الطبية للمستشفيات والمراكز الصحية.",
+      "date": "2025-10-15",
+      "location": "إربد",
+      "typeOfDonation": "صحية",
+      "targetAmount": 15000,
+      "currentAmount": 15000
+    },
+    {
+      "id": 3,
+
+      "title": "حملة تبرعات لبناء المدارس",
+      "img":"https://afrikahayat.org/wp-content/uploads/2024/02/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D9%81%D9%8A%D8%BA%D9%8A%D9%86%D9%8A%D8%A7.jpg",
+      "description": "تجميع التبرعات لبناء وتجهيز مدارس في المناطق الريفية لتحسين مستوى التعليم.",
+      "date": "2025-09-10",
+      "location": "الزرقاء",
+      "typeOfDonation": "تعليمية",
+      "targetAmount": 20000,
+      "currentAmount": 500
+    },
+    {
+      "id": 4,
+      "img":"https://childcareawarewa.org/wp-content/uploads/2024/03/6-ccawa-childcare-1024x723.jpg ",
+      "title": "حملة تبرعات لرعاية الأطفال",
+      "description": "جمع تبرعات لتجهيز مراكز رعاية الأطفال وتحسين بيئة الرعاية المقدمة لهم.",
+      "date": "2025-08-20",
+      "location": "الكرك",
+      "typeOfDonation": "اجتماعية",
+      "targetAmount": 8000,
+      "currentAmount": 4000
+    },
+    {
+      "id": 5,
+      "img":"https://bdc2020.o0bc.com/wp-content/uploads/2023/03/UUDK4XNPVVAMZIPZUA52PXS6LM-63ff24bef1e3e-768x432.jpeg",
+      "title": "حملة تبرعات لإعادة تأهيل المساكن",
+      "description": "جمع تبرعات لإصلاح وتجديد المساكن القديمة للأسر ذات الدخل المحدود.",
+      "date": "2025-12-05",
+      "location": "العقبة",
+      "typeOfDonation": "سكنية",
+      "targetAmount": 12000,
+      "currentAmount": 1000
+    },
+    {
+      "id": 6,
+      "img":"https://nss-main.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/11/15110542/Winter_blog-2024_en.jpg",
+      "title": "حملة تبرعات للمحتاجين في الشتاء",
+      "description": "توفير المعونات الشتوية مثل الملابس والبطانيات للأسر المحتاجة خلال فصل البرد.",
+      "date": "2025-11-20",
+      "location": "مادبا",
+      "typeOfDonation": "تبرعي",
+      "targetAmount": 7000,
+      "currentAmount": 500
+    },
+    {
+      "id": 7,
+      "img":"https://thumbs.dreamstime.com/b/charity-donation-poor-family-clothes-kid-toys-day-concept-female-volunteer-help-girl-social-care-support-needy-206498291.jpg",
+      "title": "حملة تبرعات لدعم الأسر المحتاجة",
+      "description": "جمع تبرعات مالية لدعم الأسر ذات الدخل المحدود وتوفير احتياجاتها الأساسية.",
+      "date": "2025-10-05",
+      "location": "معان",
+      "typeOfDonation": "مالية",
+      "targetAmount": 9000,
+      "currentAmount": 0
+    },
+    {
+      "id": 8,
+      "img":"https://www.zorgers.com/blog/wp-content/uploads/2023/02/donation-banner.jpg",
+      "title": "حملة تبرعات للمستشفيات",
+      "description": "جمع تبرعات لتحديث وتجهيز المستشفيات بالمعدات الطبية الضرورية.",
+      "date": "2025-09-25",
+      "location": "جرش",
+      "typeOfDonation": "صحية",
+      "targetAmount": 18000,
+      "currentAmount": 0
+    },
+    {
+      "id": 9,
+      "img":"https://images.ctfassets.net/wvozpes63uc8/3r2HxoLc7yulCiFl5ugjRg/0d4c05c22e877bca637aa735ea8bdb32/charity-water-social-preview.jpeg",
+      "title": "حملة تبرعات لتوفير مياه نظيفة",
+      "description": "جمع تبرعات لإنشاء الآبار ومشاريع تحسين إمدادات المياه النظيفة في المناطق النائية.",
+      "date": "2025-08-15",
+      "location": "السلط",
+      "typeOfDonation": "بيئية",
+      "targetAmount": 11000,
+      "currentAmount": 0
+    },
+    {
+      "id": 10,
+      "img":"https://www.worldvision.org.sg/sites/default/files/needs-impact/banner_education_africa_1.jpg",
+      "title": "حملة تبرعات لدعم التعليم",
+      "description": "جمع تبرعات لشراء الكتب والمستلزمات الدراسية وتعزيز العملية التعليمية للأسر المحتاجة.",
+      "date": "2025-07-30",
+      "location": "عمّان",
+      "typeOfDonation": "تعليمية",
+      "targetAmount": 13000,
+      "currentAmount": 0
+    },
+    {
+      "id": 11,
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw3nHckGdyV8rhK2x3t4Eg0uETLwJ-ZnnfYQ&s", 
+      "title": "حملة تبرعات لدعم الفقراء في المناطق الريفية",
+      "description": "جمع تبرعات لشراء المواد الأساسية وتوفير الدعم الغذائي للأسر الفقيرة في المناطق الريفية.",
+      "date": "2025-08-30",
+      "location": "معان",
+      "typeOfDonation": "غذائية",
+      "targetAmount": 14000,
+      "currentAmount": 0
+    },
+    {
+      "id": 12,
+      "img":"https://thumbs.dreamstime.com/b/charity-support-money-donation-social-elderly-care-outline-concept-humanity-solidarity-campaign-poor-old-people-201071029.jpg",
+      "title": "حملة تبرعات لدعم مراكز رعاية كبار السن",
+      "description": "جمع تبرعات لتوفير الرعاية الصحية والمستلزمات الضرورية لكبار السن في مراكز الرعاية.",
+      "date": "2025-09-20",
+      "location": "عمّان",
+      "typeOfDonation": "صحية",
+      "targetAmount": 16000,
+      "currentAmount": 0
+    },
+    {
+      "id": 13,
+
+      "title": "حملة تبرعات لترميم المرافق العامة",
+      "img":"https://alwatan.om/uploads/important_images/uploads/2017/02/e12.jpg",
+      "description": "جمع التبرعات لترميم وصيانة المرافق العامة في المدن الأردنية.",
+      "date": "2025-10-01",
+      "location": "الزرقاء",
+      "typeOfDonation": "مجتمعية",
+      "targetAmount": 10000,
+      "currentAmount": 0
+    },
+    {
+      "id": 14,
+      "img":"https://images.ctfassets.net/ejg6grzpbbxj/5CiHZ3GkAUy7SdeLp6tKPs/4b11876a0ab7e3f86df25bddc1dff56a/environmental_charity_hero.jpeg?fm=webp",
+      "title": "حملة تبرعات لدعم المشاريع البيئية",
+      "description": "جمع تبرعات لدعم مشاريع الحفاظ على البيئة وإنشاء مساحات خضراء في المدن.",
+      "date": "2025-08-25",
+      "location": "الكرك",
+      "typeOfDonation": "بيئية",
+      "targetAmount": 12000,
+      "currentAmount": 0
+    },
+    {
+      "id": 15,
+      "title": "حملة تبرعات لدعم الرياضيين الشبان",
+      "img":"https://www.gofundme.com/c/wp-content/uploads/2024/02/iStock-1444143231.jpg",
+      "description": "جمع تبرعات لتمويل بطولات ودورات تدريبية للشباب الرياضيين في الأردن.",
+      "date": "2025-07-20",
+      "location": "مادبا",
+      "typeOfDonation": "رياضية",
+      "targetAmount": 9000,
+      "currentAmount": 0
+    },
+    {
+      "id": 16,
+
+      "title": "حملة تبرعات لإنشاء مراكز تدريب مهني",
+      "img":"https://thenoorproject.org/wp-content/uploads/vocation-1.jpg",
+      "description": "جمع تبرعات لإنشاء مراكز تدريب مهني لتأهيل الشباب لسوق العمل.",
+      "date": "2025-10-12",
+      "location": "عمّان",
+      "typeOfDonation": "تعليمية",
+      "targetAmount": 22000,
+      "currentAmount": 0
+    },
+    {
+      "id": 17,
+
+      "title": "حملة تبرعات لدعم الفن والثقافة",
+      "img":"https://www.funding-hq.com/wp-content/uploads/painting.png",
+      "description": "جمع تبرعات لتنظيم مهرجانات ثقافية ودعم المواهب الفنية في المجتمع.",
+      "date": "2025-09-30",
+      "location": "عمّان",
+      "typeOfDonation": "ثقافية",
+      "targetAmount": 15000,
+      "currentAmount": 0
+    },
+    {
+      "id": 18,
+      "img":"https://cdn.prod.website-files.com/5fdd735837658e537e80ca69/64a89b8dc9e7fb517a4e7ffd_AdobeStock_299210721%20(1).jpeg",
+      "title": "حملة تبرعات لإنشاء حدائق عامة",
+      "description": "جمع تبرعات لإنشاء حدائق عامة ومساحات خضراء في الأحياء الحضرية.",
+      "date": "2025-10-18",
+      "location": "السلط",
+      "typeOfDonation": "بيئية",
+      "targetAmount": 13000,
+      "currentAmount": 420
+    }
+   
+  ]
+}

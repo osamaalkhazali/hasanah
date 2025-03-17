@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+  --brand: #0d715e !important;
+  --dark: #04342b !important;
+  --body: #516171 !important;
+  --text: #fff !important;
+  --border: rgba(0, 0, 0, 0.08) !important;
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+body {
+  color: var(--body) !important;
+  font-family: "El Messiri", sans-serif ;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+  line-height: 1.7 !important;
+  * {
+    transition: all 0.3s ease !important;
+    box-sizing: border-box;
+  }
+}
+
+
+h1,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+img {
+  width: 100%;
+}
+
+.service {
+  padding: 32px;
+  background-color: #f9f9f9;
+  box-shadow: var(--shadow);
+}
+
+.service h5 {
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.service img {
+  width: 90px;
+}
+
+.intro {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.intro p {
+  max-width: 500px;
+}
+.intro h6 {
+  color: #064439;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.intro h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  background-color: #064439 !important;
+  width: 100px !important;
+  height: 100px !important;
+  color: white !important;
+  border-radius: 30% 70% 70% 30% / 30% 37% 63% 70% !important ;
+  display: flex !important;
+  font-size: 50px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-left: 100px;
+}
