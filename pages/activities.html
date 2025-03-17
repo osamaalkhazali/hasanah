@@ -62,6 +62,17 @@
         background-color: #28a745;
         border-radius: 10px;
       }
+      .login{
+        background-color: #0d715e   !important;
+        color: #fff  !important;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 15px;
+      }
+      .login:hover{
+        background-color: rgb(17, 71, 29) !important;
+        color: white !important;
+      }
     </style>
   </head>
 
@@ -222,7 +233,8 @@
               <p><strong>الموقع:</strong> ${activity.location}</p>
               <p><strong>الأماكن المتاحة:</strong> ${activity.slotsAvailable}</p>
             </div>
-            <button class="btn bg-color volunteer-btn" data-id="${activity.id}">تطوع</button>
+            <button class="user btn bg-color volunteer-btn" data-id="${activity.id}">تطوع</button>
+            <a href="./register.html" class="login btn bg-color ">تطوع</a>
           </div>
         `;
 
@@ -230,6 +242,28 @@
               activitiesContainer.appendChild(card);
             });
           })
+          .then(() => {
+            
+      function checkUserLoggedIn() {
+                  return localStorage.getItem("user") !== null;
+                }
+                const userActions = document.querySelectorAll(".user");
+                const loginActions = document.querySelectorAll(".login");
+                userActions.forEach(action => {
+                  if (!checkUserLoggedIn()) {
+                    action.classList.add("d-none");
+                  } else {
+                    action.classList.remove("d-none");
+                  }
+                });
+                loginActions.forEach(action => {
+                  if (checkUserLoggedIn()) {
+                    action.classList.add("d-none");
+                  } else {
+                    action.classList.remove("d-none");
+                  }
+                });
+            })
           .catch((error) => console.error("Error loading activities:", error));
 
         document
