@@ -105,7 +105,28 @@
       </div>
     </div>
 
-    
+    <!-- Testimonials Section -->
+<section class="testimonials-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">آراء العملاء</h2>
+    <div class="row" id="testimonials-container">
+      <!-- Testimonials will be dynamically inserted here -->
+    </div>
+    <div class="text-center mt-4">
+      <button id="add-testimonial-btn" class="btn btn-brand d-none">أضف رأيك</button>
+    </div>
+  </div>
+</section>
+
+<!-- Popup for Adding Testimonial -->
+<div id="testimonial-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <h3>أضف رأيك</h3>
+    <textarea id="testimonial-text" placeholder="اكتب رأيك هنا..." rows="4"></textarea>
+    <button id="submit-testimonial" class="btn btn-brand">إرسال</button>
+  </div>
+</div>
 
     <footer>
       <div class="footer-top text-center">
@@ -148,6 +169,81 @@
     </footer>
     
 
+    
+    <script>
+      
+      document.addEventListener("DOMContentLoaded", function () {
+  const testimonialsContainer = document.getElementById("testimonials-container");
+  const addTestimonialBtn = document.getElementById("add-testimonial-btn");
+  const testimonialPopup = document.getElementById("testimonial-popup");
+  const closePopup = document.querySelector(".close-popup");
+  const submitTestimonialBtn = document.getElementById("submit-testimonial");
+  const testimonialText = document.getElementById("testimonial-text");
+
+  // Check if user is logged in (example: check localStorage for user data)
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  // Show "Add Testimonial" button if user is logged in
+  if (user) {
+    addTestimonialBtn.classList.remove("d-none");
+  }
+
+  // Load default testimonials if none exist
+  if (!localStorage.getItem("testimonials")) {
+    const defaultTestimonials = [
+      { name: "Osama", text: "شكرًا لحسنه على جهودهم الرائعة!" },
+      { name: "Omar", text: "أحببت تجربتي مع حسنه، أنصح الجميع!" },
+      { name: "Layan", text: "مبادرات رائعة وفعالة، بارك الله فيكم." },
+    ];
+    localStorage.setItem("testimonials", JSON.stringify(defaultTestimonials));
+  }
+
+  // Display testimonials
+  function displayTestimonials() {
+    const testimonials = JSON.parse(localStorage.getItem("testimonials"));
+    testimonialsContainer.innerHTML = testimonials
+      .map(
+        (testimonial) => `
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card p-4 bg-light rounded">
+            <p class="testimonial-text">${testimonial.text}</p>
+            <p class="testimonial-author">- ${testimonial.name}</p>
+          </div>
+        </div>
+      `
+      )
+      .join("");
+  }
+
+  displayTestimonials();
+
+  // Open popup to add testimonial
+  addTestimonialBtn.addEventListener("click", () => {
+    testimonialPopup.style.display = "flex";
+  });
+
+  // Close popup
+  closePopup.addEventListener("click", () => {
+    testimonialPopup.style.display = "none";
+  });
+
+  // Submit new testimonial
+  submitTestimonialBtn.addEventListener("click", () => {
+    const text = testimonialText.value.trim();
+    if (text) {
+      const testimonials = JSON.parse(localStorage.getItem("testimonials"));
+
+      testimonials.push({ name: user.name || "مستخدم", text });
+      localStorage.setItem("testimonials", JSON.stringify(testimonials));
+      displayTestimonials();
+      testimonialText.value = "";
+      testimonialPopup.style.display = "none";
+    }
+  });
+});
+      
+      
+    </script>
     <script src="./js/navBar.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
