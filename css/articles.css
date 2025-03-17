@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -34,13 +33,13 @@ h3 {
     margin-bottom: 40px;
 }
 
-ul {
+/* ul {
     padding-right: 20px;
 }
 
 li {
     margin-bottom: 15px;
-}
+} */
 
 .closing {
     background-color: #E8F5E9;
